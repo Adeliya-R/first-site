@@ -61,10 +61,12 @@ input {
     background-color: #ffbb42;
     color: white;
     height: 55px;
-    width: 280px;
+    width: auto;
+    padding-left: 50px;
+    padding-right: 50px;
     text-transform: uppercase;
-    font-family: roboto;
-    font-size: 20px;
+    font-family: lato;
+    font-size: 14px;
     border: 0;
 }
 
@@ -158,18 +160,16 @@ h2, h3 {
 .about {
     background-color: #ffc155;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     display: flex;
 
 }
 
 .about h2, p {
     color: white;
-    text-align: left;
     line-height: 24px;
     
 }
-
 
 .about-text {
     width: 100%;
@@ -178,20 +178,146 @@ h2, h3 {
     
 }
 
-.about-text button {
-    background-color: #ffc155;
-    color: white;
-    height: 55px;
-    width: 280px;
-    text-transform: uppercase;
-    font-family: roboto;
-    font-size: 20px;    
-    border: 0;
+
+
+.about img {
+    max-width:100%;
+    
+}
+
+
+/* Price */
+
+.price {
+    background-color: #e7edf3;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 100px;
+    
+}
+
+
+.price p {
+    color: black;
+    font-size: 18px;
+    text-transform: capitalize;
+   
+}
+
+
+.price h2 {
+    color: black;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 100px;
+    
+}
+
+.price-slider {
+    display: flex;
+    flex-wrap:wrap; 
+    justify-content: center;
+    
+}
+
+.basic {
+    background-color: white;
+    width: 370px;
+    height: 440px;
+    border: 1px solid #ccd5df;
+    margin-top: 30px;
+    
+    
+}
+
+
+.premium {
+    background-color: #719ec8;
+    width: 370px;
+    height: 500px;
+    border: 1px solid #ccd5df;
+    z-index: 1000;
+}
+
+.gold {
+    background-color: white;
+    width: 370px;
+    height: 440px;
+    border: 1px solid #ccd5df;
+    margin-top: 30px;
+}
+
+
+.price-slider p {
+    color: #b5bbc1;
+}
+
+.tarif {
+    font-family: lato;
+    font-size: 60px;
+    color: #ffbb42;
 }
 
 
 
 
+/* How it works */
+
+.work {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 100px;
+   
+}
+
+.work p {
+    color: black;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.work h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.steps {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.steps p {
+    font-size: 13px;
+    width: 200px;
+    text-transform: capitalize;    
+}
+
+
+/* Newsletter */
+
+.newsletter {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 100px;
+    
+}
+
+.newsletter p {
+    font-size: 16px;
+    color: black;
+    text-transform: capitalize;
+}
+
+
+
+/* Address */
 
 
 
@@ -200,5 +326,44 @@ h2, h3 {
 
 
 
+/* Footer */
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #d7dde4;
+}
+       
+footer .nav {
+    padding-bottom: 30px;
+    padding-top: 50px;
+
+}
 
 
+.social img {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.phone p {
+    color: black;
+    font-family: lato;
+    font-size: 22px;
+}
+
+.copyright {
+    width: 100%;
+    background-color: #709dca;
+    text-align: center;
+}
