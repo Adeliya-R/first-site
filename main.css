@@ -70,22 +70,7 @@ input {
     border: 0;
 }
 
-.pic-people {
-    position: relative;
-    z-index: 100;
-    margin-top: 60px;
-    
-    
-}
 
-.pic-computer {
-    position: absolute;
-    left: 50%;
-    top: 46%;
-    margin-left: -326px;
-    
-    
-}
 
 /* Our services */
 
@@ -99,6 +84,7 @@ h2 {
 h3 {
     font-family: lato;
     font-size: 16px;
+    color: black;
 
 }
 
@@ -141,6 +127,7 @@ h2, h3 {
     text-align: left;
     color: black;
     line-height: 22px;
+    margin-top: 0;
 }
 
 
@@ -149,6 +136,7 @@ h2, h3 {
     float: left;
     margin-top: 15px;
     margin-right: 20px;
+    margin-bottom: 70px;
     
 }
 
@@ -173,7 +161,7 @@ h2, h3 {
 
 .about-text {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     margin-left: 50px 
     
 }
@@ -300,12 +288,77 @@ h2, h3 {
 }
 
 
+/* Happy clients */
+
+.clients {
+    background-color: #ffc155;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.clients h2, h3, p {
+    font-family: roboto;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+.clients p {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+    
+.reviews {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}     
+    
+.reviews .block {
+    flex: 40%;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    max-width: 1000px;
+    background-color: white;
+    border: 1px solid #ccd5df;
+
+}
+
+.reviews p {
+    font-size: 13px;
+    margin-top: 0;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.reviews img {
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    
+}
+
+.reviews .name {
+    color: #f6772c;
+    font-size: 14px;
+}
+
+
 /* Newsletter */
 
 .newsletter {
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 100px;
     
 }
 
@@ -319,11 +372,32 @@ h2, h3 {
 
 /* Address */
 
+.prefooter {
+    background: url(images/map.png) center no-repeat;
+    height: 800px;
+    margin-top: -100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+        
+}
 
+.circle {
+    background-color: #384b52;
+    width: 280px;
+	height: 280px;
+    border-radius: 50%;
+    position: relative;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.circle p {
+    text-align: center;
 
-
-
+}
 
 
 /* Footer */
