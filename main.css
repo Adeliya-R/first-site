@@ -11,7 +11,6 @@ header {
 } 
 
 
-
 .nav a {
     text-decoration: none;
     color: black;
@@ -23,11 +22,12 @@ header {
 
 a:hover {
     color: white;
-    background-color: #ffbb42;
-    padding: 5px;
-    
-        
+    background-color: #ffbb42;  
+    transform: scale(1.5);    
 }
+
+
+/* Intro */
 
 .intro {
     background: #709dca;
@@ -124,7 +124,7 @@ h2, h3 {
 .subtitle {
     text-align: center;
     color: black;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 0;
 }
 
@@ -178,93 +178,76 @@ h2, h3 {
 /* Price */
 
 .price {
-    background-color: #e7edf3;
     margin: 0 auto;
     text-align: center;
+    background-color: #e7edf3;
     padding-bottom: 100px;
-    
-}
-
-
-.price p {
-    color: black;
-    font-size: 18px;
    
 }
 
-
 .price h2 {
-    color: black;
-    font-size: 30px;
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 100px;
-    
 }
+
 
 .price-slider {
     display: flex;
-    flex-wrap:wrap; 
-    justify-content: center;
-    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 70px;
 }
 
-.basic {
+.slide {
     background-color: white;
-    width: 370px;
-    max-width: 370px;
-    height: 440px;
-    border: 1px solid #ccd5df;
-    margin-top: 30px;
-    
+    width: 330px;
+    height: 450px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    border: 1px solid #c0c5ca;
 }
-    
+
 .tarif-name {
-    text-transform: uppercase;
     font-family: lato;
     font-size: 25px;
-}
-
-.tarif {
-    font-size: 40px;
-}
-
-.premium {
-    background-color: white;
-    width: 370px;
-    height: 500px;
-    border: 1px solid #ccd5df;
-    z-index: 1000;
-}
-
-.premium:hover {
-    background-color: #719ec8;
-    width: 370px;
-    height: 500px;
-    border: 1px solid #ccd5df;
-  
-}
-
-
-
-.gold {
-    background-color: white;
-    width: 370px;
-    height: 440px;
-    border: 1px solid #ccd5df;
-    margin-top: 30px;
-}
-
-
-.price-slider p {
-    color: #b5bbc1;
+    color: black;
+    padding-bottom: 20px;
 }
 
 .tarif {
     font-family: lato;
     font-size: 60px;
     color: #ffbb42;
+    margin-top: 15px;
 }
+
+.per-month {
+    color: black;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+.text {
+    font-size: 13px;
+    border-top: 1px solid #c0c5ca;
+    color: black;
+    padding-top: 5px;
+    
+}
+
+.slide .btn {
+    margin-top: 20px;
+}
+
+.slide:hover {
+    background-color: #709dca;
+    transform: scale(1.1);
+}
+
 
 
 
@@ -281,7 +264,6 @@ h2, h3 {
 .work p {
     color: black;
     font-size: 18px;
-    text-transform: capitalize;
 }
 
 .work h3 {
@@ -326,7 +308,7 @@ h2, h3 {
 
 .clients p {
     font-size: 18px;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
     
 .reviews {
@@ -358,6 +340,7 @@ h2, h3 {
     margin-top: 0;
     margin-right: 30px;
     margin-bottom: 30px;
+    text-transform: capitalize;
 }
 
 .reviews img {
@@ -384,7 +367,6 @@ h2, h3 {
 .newsletter p {
     font-size: 16px;
     color: black;
-    text-transform: capitalize;
 }
 
 
@@ -449,8 +431,14 @@ footer .nav {
 
 .phone {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
    
+}
+
+.phone img {
+    position: relative;
+    margin: auto;
+    padding-right: 10px;
 }
 
 
